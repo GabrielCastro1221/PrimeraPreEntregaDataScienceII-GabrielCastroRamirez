@@ -1,16 +1,12 @@
 # _***Prediccion de enfermedades cardiacas***_
 
-Para este analisis se dispone de un conjunto de datos en formato `csv` que contiene la informacion de varias métricas de salud de pacientes cardíacos, este conjunto de datos incluye datos como la edad, la presión arterial, la frecuencia cardíaca, colesterol, gleusemia entre otros.
-El objetivo de este analisis es desarrollar una prediccion capaz de identificar con precisión a personas con enfermedades cardíacas.
-Por medio de varios procesos de limpieza de datos y calculos entre los valores de cada campo del conjunto de datos, se garantizara que el modelo identificara a todos los pacientes potenciales.
+Para este analisis se dispone de un conjunto de datos en formato `csv` que contiene la informacion de varias métricas de salud de pacientes cardíacos, este conjunto incluye datos como la edad, la presión arterial, la frecuencia cardíaca, colesterol, gleusemia entre otros.
 
-## _***Objetivos:***_
+El objetivo de este analisis es desarrollar una prediccion capaz de identificar con precisión a personas con enfermedades cardíacas. Por medio de varios procesos de limpieza de datos y calculos entre los valores de cada campo del conjunto de datos, se garantizara que el modelo identificara a todos los pacientes potenciales.
 
-+ Identificar el tipo de dato de cada uno de los campos que contienen los registros de la informacion de las personas en el conjunto de datos y asi porder realizar las tranformaciones respectivas para una analisis optimo de la problematica a evaluar.
-+ Identificar el rango y el promedio de cada uno de los registros que se encuentran el los campos del conjuntode datos para poder deducir en que personas es mas frecuente encontrar enfermedades cardiacas.
-+ Efectuar un analisis univariado para comprender saber como es el comportamiento de las caracteriscas y mirar como es su distribución en el conjunto de datos.
-+ Visualizar los datos categoricos para analizar como es la frecuencia de las categorias de cada campo del conjunto de datos.
-+ Efectuar un analisis bivariado para comprender la relacion entre la distribución de las caracteriscas de los campos categoricos con los objetivos.
+Se realizara un modelo el cual hara la predicción de enfermedades cardiacas en una persona, para esto se tiene un conjunto de datos donde esta alojada la información de varias métricas de salud de pacientes cardíacos a la cual se le realizara una limpieza de datos para poder hacer calculos precisos para una prediccion optima, fuera de eso se implementaran las tecnicas de analisis exploratorio las cuales ayudaran a analizar los datos de una manera visual para entender los datos mas facil, luego se seleccionara el algoritmo de regresion el cual servira para entrenar el modelo de datos y de acuerdo a los resultados de las metricas calculadas por el modelo se analizara cual es el que es mas acertivo en la precicción.
+
+Una vez se tiene el modelo de datos con mayor acertividad en las predicciones de las enfermedades cardiacas se hara una simulación donde se le pasaran por parametro cada uno de los valores de las metricas de cada paciente, dichos valores son los campos que contiene el conjunto de datos y de acuerdo a dichas metricas el sistema dira si esa persona esta enferma o esta sana.
 
 ## _***Fuente de datos***_
 
