@@ -47,7 +47,7 @@ _***TARGET***_   | Estado de enfermedad cardíaca: 0 = Sano - 1 = Enfermo
 + `info`: Este metodo de la libreria `pandas` proporciona información detallada del conjunto de datos.
 + `astype`: Este metodo de la libreria `pandas` permite hacer tranformaciones de datos sobre el conjunto de datos en el que se esta trabajando.
 + `describe`: Este metodo de la libreria `pandas` muestra los datos estadisticos de los datos numericos del conjunto de datos.
-+ `describe(include="object")`: Este metodo de la libreria pandas muestra el resultado de los datos categoricos del conunto de datos.
++ `describe(include="object")`: Este metodo de la libreria `pandas` muestra el resultado de los datos categoricos del conunto de datos.
 + `plt.subplots`: Este metodo de la libreria `MatPlotLib` le asigna las dimensiones a la visualización
 + `np.floor & np.ceil`: Este metodo de la libreria `numpy` en este analisis servira para darle un rango de columnas y celdas a las visualizaciones generadas.
 + `sns.histplot`: Este metodo de la libreria `seaborn` permite crear una visualizacion tipo histograma.
@@ -64,13 +64,13 @@ _***TARGET***_   | Estado de enfermedad cardíaca: 0 = Sano - 1 = Enfermo
 
 ## _***Glosario***_
 
-1. _***Data wrangling (Limpieza de datos)***_: también conocido como data munging, es el proceso de limpiar, estructurar y enriquecer conjuntos de datos crudos en formatos más utilizables para análisis. Implica transformar datos en diferentes formatos, fusionar conjuntos de datos, detectar y corregir errores en los datos, así como manejar valores faltantes y asegurar que los datos estén en el formato adecuado para su análisis.
+1. _***Data wrangling***_ `Limpieza de datos`: también conocido como data munging, es el proceso de limpiar, estructurar y enriquecer conjuntos de datos crudos en formatos más utilizables para análisis. Implica transformar datos en diferentes formatos, fusionar conjuntos de datos, detectar y corregir errores en los datos, así como manejar valores faltantes y asegurar que los datos estén en el formato adecuado para su análisis.
 
 2. _***Datos categoricos***_: son un tipo de datos que representan características y cualidades, en lugar de cantidades numéricas. Estos datos se dividen en categorías o grupos discretos y finitos.
 
 3. _***Datos continuos***_: son otro tipo de datos que representan valores numéricos que pueden tomar cualquier valor dentro de un intervalo específico.
 
-4. _***Exploratory data analysis (EDA)***_: Es una etapa fundamental en el proceso de análisis de datos, donde se utilizan técnicas estadísticas y gráficas para explorar y entender los datos antes de aplicar métodos más avanzados o realizar inferencias.
+4. _***Exploratory data analysis***_ `EDA`: Es una etapa fundamental en el proceso de análisis de datos, donde se utilizan técnicas estadísticas y gráficas para explorar y entender los datos antes de aplicar métodos más avanzados o realizar inferencias.
 
 5. _***Analisis univariado***_: Es una técnica estadística que se centra en analizar una sola variable a la vez. Es decir, examina las características y propiedades de una variable sin considerar otras variables simultáneamente. Este tipo de análisis es fundamental en estadística descriptiva y suele ser el primer paso en la exploración de datos.
 
