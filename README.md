@@ -4,11 +4,11 @@ Para este analisis se dispone de un conjunto de datos en formato `csv` que conti
 
 Se realizara un modelo el cual hara la predicción de enfermedades cardiacas en una persona, para esto se tiene un conjunto de datos donde esta alojada la información de varias métricas de salud de pacientes cardíacos a la cual se le realizara una limpieza de datos para poder hacer calculos precisos para una prediccion optima, fuera de eso se implementaran las tecnicas de analisis exploratorio las cuales ayudaran a analizar los datos de una manera visual para entender los datos mas facil, luego se seleccionara el algoritmo de regresion el cual servira para entrenar el modelo de datos y de acuerdo a los resultados de las metricas calculadas por el modelo se analizara cual de los modelos es mas acertivo en la precicción.
 
-Una vez se tiene el modelo de datos con mayor acertividad en las predicciones de las enfermedades cardiacas se hara una simulación donde se le pasaran por parametro cada uno de los valores de las metricas de cada paciente, dichos valores son los campos que contiene el conjunto de datos y de acuerdo a dichas metricas el sistema dira si esa persona esta enferma o esta sana.
+Una vez se tiene el modelo de datos con mayor acertividad en las predicciones cardiopaticas se hara una simulación donde se le pasaran por parametro cada uno de los valores de las metricas de cada paciente, dichos valores son los campos que contiene el conjunto de datos y de acuerdo a dichas metricas el sistema dira si esa persona tiene o no problemas cardiacos.
 
 ## _***Fuente de datos***_
 
-En la siguiente url se encuentran alojados los datos de las personas con problemas cardiacos que ayudaran a hacer el analisis de la problematica. Esta url pertenece a la plataforma GitHub y servira para cargar el conjunto de datos en el notebook.
+En la siguiente `URL` se encuentran alojados los datos de las personas con problemas cardiacos que ayudaran a hacer el analisis de la problematica. Esta `URL` pertenece a la plataforma GitHub y servira para cargar el conjunto de datos en el notebook.
 
 ```
 https://raw.githubusercontent.com/GabrielCastro1221/csv_dataScience/main/heart1.csv
